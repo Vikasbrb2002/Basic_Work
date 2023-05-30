@@ -27,7 +27,7 @@ int main(){
     int end=size-1;
     Quicksort(arr,start,end);
     for(int i=0;i<size;i++){
-        cout<<arr[i]<<" ";
+        cout<<arr[i]<<" " ; 
     }
     return 0;
 }
